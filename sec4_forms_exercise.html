@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Section 4: HTML - form exercise</title>
+</head>
+<body>
+	<h1>Register</h1>
+	<form>
+
+		<!-- for have to be connected via id!!! -->
+
+		<label for="first">First Name:</label>
+		<input type="username" id="first" name="firstname" placeholder="John" required>
+		<label for="last">Last Name:</label>
+		<input type="username" id= "last" name="lastname" placeholder="Smith" required>
+		
+		<div>
+			<label for="male">Male</label>
+			<input type="radio" name="gender" id="male" value="MALE">
+
+			<label for="female">Female</label>
+			<input type="radio" name="gender" id="female" value="FEMALE">
+
+			<label for="other">Other</label>
+			<input type="radio" name="gender" id="other" value="OTHER">
+		</div>
+		
+		<p></p>
+		<label for="email">Email:</label>
+		<input type="email" name="email" required>
+		<label for="password">Password:</label>
+		<input type="password" name="password" minlength="5" maxlength="10" required>
+
+		<p></p>
+		<label>Birthday:
+		<select name = "Month">
+			<option value="default">Month</option>
+			<option value="Jan">Jan</option>
+			<option value="Feb">Feb</option>
+			<option value="Mar">Mar</option>
+		</select>
+		<select name = "Day">
+			<option value="default">Day</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+		</select>
+		<select name = "Year">
+			<option value="default">Year</option>
+			<option value="1991">1991</option>
+			<option value="1992">1992</option>
+			<option value="1993">1993</option>
+		</select>
+		</label>
+		<p></p>
+		<label for="agree">I agree to the terms and conditions</label>
+		<input type="checkbox" name="agree">
+		<p>
+		</p>
+		<button>Go!</button>
+	</form>
+</body>
+</html>

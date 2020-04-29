@@ -1,11 +1,25 @@
+/*selector{
+	property: value;
+}*/
+
 h1 {
-	color: #FF0000;
+	color: rgba(0, 200, 100, 1);
+	border: 2px solid purple;
+}
+
+
+
+h4{
+	background: orange;
+	color: rgba(0, 200, 100, 0.7);
 }
 
 li{
-	color: #00FF00;
+	color: rgba(0, 200, 100, 0.7);
 }
 
-h4{
-	color: #0000FF;
+body{
+	/*background: url(https://images-na.ssl-images-amazon.com/images/I/81eOxhxbivL._AC_SL1500_.jpg);
+	background-size: cover;*/
+	background: pink;
 }

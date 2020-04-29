@@ -1,0 +1,16 @@
+li{
+	border:2px solid red;
+	background: purple;
+}
+
+#second{
+	background: green;
+	color: white;
+}
+#third{
+	color: yellow;
+}
+
+.completed{
+	text-decoration: line-through;
+}

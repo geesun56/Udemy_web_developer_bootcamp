@@ -1,0 +1,12 @@
+p{
+	border: 2px solid blue;
+	/*border-top: */
+
+	width: 50%;	
+	/*50% of the parent element*/
+
+	padding: 20px;
+
+	margin: 0 auto 0 auto;
+	margin: 50px 20px;
+}
